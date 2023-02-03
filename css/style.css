@@ -2,7 +2,26 @@ section {
   display: grid;
   grid-template-columns: 200px 200px 200px;
 }
-image {
+img {
   width: 200px;
   height: 200px;
+}
+
+header {
+  display: grid;
+  height: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+header > img {
+  align-self: start;
+  width: 20px;
+  height: 20px;
+}
+h1 {
+  justify-self: start;
+}
+nav {
+  justify-self: end;
 }
